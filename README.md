@@ -39,3 +39,11 @@ git pull
 docker build -t vintagestory .
 ./run.sh
 ```
+
+### Using an older version
+
+You can use an older version of Vintage Story if needed, by building with the `VERSION` env variable set, eg
+
+```bash
+VERSION=1.16.1 docker build -t vintagestory .
+```
