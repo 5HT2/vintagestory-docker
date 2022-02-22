@@ -43,7 +43,7 @@ docker build -t vintagestory .
 Or, as an easy to copy oneliner:
 
 ```bash
-cd vintagestory-docker; git pull; docker build -t vintagestory .; ./run.sh
+cd vintagestory-docker; git pull; docker build -t vintagestory .; ./run.sh; cd
 ```
 
 ### Using an older version
