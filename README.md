@@ -40,6 +40,12 @@ docker build -t vintagestory .
 ./run.sh
 ```
 
+Or, as an easy to copy oneliner:
+
+```bash
+cd vintagestory-docker; git pull; docker build -t vintagestory .; ./run.sh
+```
+
 ### Using an older version
 
 You can use an older version of Vintage Story if needed, by building with the `VERSION` env variable set, eg
