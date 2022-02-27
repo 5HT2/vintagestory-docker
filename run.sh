@@ -13,4 +13,4 @@ docker rm vintagestory || echo "Could not remove missing container vintagestory"
 
 docker run --name vintagestory \
   --mount type=bind,source="$VINTAGESTORY_PATH",target=/root/.config/VintagestoryData \
-  --network host -d vintagestory
+  --network host -d -it vintagestory
