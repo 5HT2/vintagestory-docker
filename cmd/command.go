@@ -43,7 +43,7 @@ func main() {
 
 	arguments := os.Args
 	if len(arguments) == 1 {
-		fmt.Println("Please provide host:port.")
+		fmt.Println("Please provide a port.")
 		return
 	}
 
@@ -51,7 +51,7 @@ func main() {
 	// Setup TCP
 	//
 
-	c, err := net.Dial("tcp", arguments[1])
+	c, err := net.Dial("tcp", "localhost:"+arguments[1])
 	if err != nil || c == nil {
 		fmt.Println(err)
 		return
