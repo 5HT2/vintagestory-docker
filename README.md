@@ -16,7 +16,7 @@ export VINTAGESTORY_PATH="$HOME/vintagestory"
 Next, all you need to do in order to run the server is:
 
 ```bash
-git clone https://github.com/l1ving/vintagestory-docker
+git clone https://github.com/5HT2/vintagestory-docker
 cd vintagestory-docker
 # Build the image, only required when updating the version
 docker build -t vintagestory .
