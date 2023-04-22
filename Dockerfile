@@ -1,5 +1,5 @@
 FROM alpine:latest
-ENV VERSION "1.18.0"
+ENV VERSION "1.18.1"
 
 RUN mkdir /vintagestory \
  && apk --no-cache add ca-certificates wget \
