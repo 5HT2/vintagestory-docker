@@ -1,6 +1,6 @@
 FROM alpine:latest
-ENV VERSION "1.19.4"
-ENV ARCHIVE "vs_server_linux-x64_${VERSION}.tar.gz"
+ENV VERSION="1.19.4"
+ENV ARCHIVE="vs_server_linux-x64_${VERSION}.tar.gz"
 
 RUN mkdir /vintagestory \
  && apk --no-cache add ca-certificates wget \
